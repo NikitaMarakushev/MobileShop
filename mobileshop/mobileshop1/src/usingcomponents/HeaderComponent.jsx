@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function HeaderComponent() {
+function HeaderComponent() {
     return (
         <div>
             <p>Heelo!</p>
@@ -8,3 +8,4 @@ export default function HeaderComponent() {
     )
 }
 
+export default HeaderComponent
