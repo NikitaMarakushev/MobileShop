@@ -4,5 +4,9 @@
 
 .header {
     border-radius: $b-radius;
-    height: 6.5vh;
+    height: 80px;
+    .header_img {
+        height: $logo-length;
+        width: $logo-length;
+    }
 }
